@@ -1,0 +1,101 @@
+.product{
+    height: 100%; 
+    overflow-y: scroll;
+}
+
+.inner-product-list{
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    height: 60vh;
+    overflow-x: hidden;
+    padding: 0px 20px;
+}
+.product-list-name{
+    border-bottom: 2px solid
+} 
+
+.accordion-item{
+    margin: 10px 20px !important;
+}
+.product-list-group{
+    border: unset !important;
+    font-size: 20px;
+    padding: 15px 10px !important;
+    font-weight: 600;
+}
+.product-list-group-item{
+    border: unset !important; 
+    transition-duration: 5s ease-in;
+    transition-delay: 5ms;
+}
+
+.product-list-group-item:hover{
+    /* transform: scale(1.1); */
+    background-color: #2D3843 !important;
+    color: #fff !important;
+    border-radius: unset !important;
+    box-shadow: 1px 2px 2px #000;
+    transition-duration: 5s ease-in;
+    transition-delay: 5ms;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #2D3843 !important;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #2D3843 !important;
+}
+.accordion-button:not(.collapsed) {
+    color: #fff !important;
+    background-color: #2D3843 !important;
+    box-shadow: inset 0 -1px 0 #2D3843 !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: unset !important;
+    transform: rotate(-180deg);
+    /* background-image: url(../../images/goodaid-icon-logo.png) !important; */
+    background-color:#fff;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    /* background-image: url(../../images/goodaid-icon-logo.png) !important; */
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    
+}
+
+.product-content h5 a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #424F5D;
+}
+.product-content p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.enquire-btn{
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.enquire-btn:hover {
+    color: rgb(210, 48, 146) !important;
+    animation: border-animation 0.5s;
+}
+
+.product-item-name-right{
+    padding: 0px 30px;
+}
+/* .product-list-name{
+    margin: ;
+} */

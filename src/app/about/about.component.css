@@ -1,0 +1,93 @@
+.landing-banner {
+    /* background-image: url(../../images/features.jpg); */
+    height: 35vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: unset !important;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.about-icon-01 {
+    width: 100px;
+    position: absolute;
+    filter: drop-shadow(2px 2px 1px);
+    animation: about-icon 10s infinite;
+    transition: ease-in-out;
+}
+
+.about-icon-02 {
+    width: 70px;
+    position: absolute;
+    top: 87%;
+    filter: drop-shadow(2px 2px 1px);
+    left: 40%;
+}
+
+.about-icon-03 {
+    width: 70px;
+    position: absolute;
+    top: 87%;
+    filter: drop-shadow(2px 2px 1px);
+    left: 55%;
+}
+
+.about-icon-04 {
+    width: 90px;
+    position: absolute;
+    top: 30%;
+    filter: drop-shadow(2px 2px 1px);
+    left: 60%;
+    animation: about-icon-360 10s infinite;
+    transition: ease-in-out;
+}
+
+.mission {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.fsq-button-01 {
+    border-radius: 50px !important;
+    margin: 10px 0px;
+    filter: drop-shadow(0px 0px 3px);
+}
+
+.fsq-item {
+    border: unset;
+    margin: 20px 0px;
+}
+.fsq-container {
+    padding: 50px;
+}
+.accordion-flush .accordion-collapse {
+    border-width: 0;
+    background-color: #2d3843;
+    margin-top: -10px;
+    border-bottom-left-radius: 20px;
+    margin: -10px 30px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #2d3843;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}

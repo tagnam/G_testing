@@ -6,6 +6,9 @@ import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductComponent } from './product/product.component';
 import { testing_toolComponent } from './testing_tool/testing_tool.component';
+import { OnInit } from '@angular/core';
+import { ViewChild } from '@angular/core';
+import { ElementRef } from '@angular/core';
 
 
 @Component({
@@ -18,11 +21,16 @@ import { testing_toolComponent } from './testing_tool/testing_tool.component';
     BlogComponent,
     ContactComponent,
     ProductComponent,
-    testing_toolComponent
+    testing_toolComponent,
+
+  
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   title = 'G_testing';
+
 }
+
+

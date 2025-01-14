@@ -7,11 +7,34 @@ import { ProductComponent } from './product/product.component';
 import { testing_toolComponent } from './testing_tool/testing_tool.component';
 
 export const routes: Routes = [
-{ path:'', component:HomeComponent},
-{path:'about', component:AboutComponent},
-{path:'blog',component:BlogComponent},
-{ path:'contact',component:ContactComponent},
-{ path:'product', component:ProductComponent},
-{path:'tool',component:testing_toolComponent}
+{ 
+    path:'', 
+    component:HomeComponent
+},
+
+{
+    path:'about',
+     component:AboutComponent
+    },
+
+{
+    path:'blog'  ,
+    component:BlogComponent
+},
+
+{ 
+    path:'contact',
+    component:ContactComponent
+},
+
+{ 
+    path:'product', 
+    component:ProductComponent
+},
+
+{
+    path:'tool',
+    component:testing_toolComponent
+}
 
 ];

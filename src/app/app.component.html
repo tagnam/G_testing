@@ -1,0 +1,64 @@
+<header>
+    <!-------------------------------------  Star Nav Bar--------------------------------->
+    <nav class="navbar custom-nav">
+        <div class="container-fluid">
+            <a class="navbar-brand custom-nav-brand"><img src="images/good-aid-logo-white.svg" alt="" /></a>
+            <div class="d-flex custom-nav-menu-icon">
+                <div class="menu-icon-group" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                    <h3 class="open-menu">Menu</h3>
+                </div>
+            </div>
+
+            <!----------------------------------- offcanvas start ------------------------------>
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel"><img src="images/GoodaidLogo--02.svg" class="w-75" alt="" /></h5>
+                    <h3 class="menu-close" data-bs-dismiss="offcanvas" aria-label="Close">Close</h3>
+                    <!-- <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button> -->
+                </div>
+                <div class="offcanvas-body d-flex justify-content-center">
+                    <ul class="menu-list">
+                        <li class="menu-list-item">
+                            <a routerLink=""> Home </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a routerLink ="/about"> About </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a routerLink="/product"> Product </a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a routerLink="/tool"> Tool</a>
+                        </li>
+                        <li class="menu-list-item">
+                            <a routerLink="/contact">Contact us </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-footer">
+                    <div class="row g-1">
+                        <div class="col offcanvas-footer-icon">
+                            <a ><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                        <div class="col offcanvas-footer-icon">
+                            <a ><i class="bi bi-twitter"></i></a>
+                        </div>
+                        <div class="col offcanvas-footer-icon">
+                            <a ><i class="bi bi-linkedin"></i></a>
+                        </div>
+                        <div class="col offcanvas-footer-icon">
+                            <a ><i class="bi bi-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------- offcanvas end ------------------------------>
+        </div>
+    </nav>
+    <!-------------------------------------End Nav Bar------------------------------------>
+
+
+
+</header>
+
+<router-outlet></router-outlet>
