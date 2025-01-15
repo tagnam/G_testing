@@ -1023,3 +1023,345 @@ footer{
     margin: 20px 0px;
 }
 /*-----------------------------------------------------footer footer --------------------------------------------------- */
+
+
+@keyframes border-animation {
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    60%{
+        opacity: 0;
+        transform: scale(1.3);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+@keyframes about-icon {
+    from {top: 0px;}
+    to {top: 30px;}
+  }
+
+  @keyframes about-icon-360{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg); }
+  }
+
+
+
+  
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+
+    body{
+      background-image:unset !important;
+    }
+    
+    .carousel-caption{
+        width: 100% !important ;
+    
+    }
+    
+    .carousel-caption h2{
+      font-size: 20px !important;
+    }
+    
+    .custom-slider-img img{
+      height: 50vh !important;
+    }
+    
+    
+      .main-manu-item a {
+        padding: 0px 10px !important;
+    } 
+      
+      /* Place the timelime to the left */
+        .timeline::after {
+        left: 31px;
+        }
+        
+        /* Full-width containers */
+        .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+        }
+        
+        /* Make sure that all arrows are pointing leftwards */
+        .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+        }
+      
+        /* Make sure all circles are at the same spot */
+        .timeline-left::after, .timeline-right::after {
+        left: 15px;
+        }
+        
+        /* Make all right containers behave like the left ones */
+        .timeline-right {
+        left: 0%;
+        }
+    
+      .service-row-media{
+        flex-direction: column-reverse !important;
+      }
+      #story-002{
+         margin-top: unset!important; 
+        }
+        .service-section {
+          overflow: unset !important;
+      }
+    
+      .custom-list-item{
+        margin: unset !important;
+      }
+    .service-hading-container {
+     
+      transform: unset !important;
+    }
+    
+    .service-hading-container h2 {
+      transform: unset !important;
+    }
+    .service-icon {
+      margin: 20px 0px !important;
+    }
+    
+    .healtho-heading {
+      
+      padding: 0px 0px !important;
+      font-size: 18px !important;
+    }
+    .about-banner {
+      
+      height: unset !important;
+    
+    }
+    
+    .vision {
+      
+      padding: 0px 15px !important;
+    }
+    .vision p{
+      font-size: 16px;
+    
+    }
+    .about-content p {
+      font-size: 18px !important;
+      padding: 15px !important;
+      line-height: unset !important;
+    }
+    
+    
+    .page-heading h1 {
+      font-size: 40px !important;
+      
+    }
+    .header {
+      height: auto !important;
+    }
+    .banner-container{
+      height: auto !important;
+    }
+    header{
+      height: auto !important;
+    }
+    
+    .main {
+     
+      width: 350px !important;
+      height: 350px !important;
+     
+    }
+    .about-card {
+      height: unset !important;
+    }
+    
+    /* .about-card-container{
+      height: ;
+    } */
+    .vision {
+      
+       margin-bottom: unset !important; 
+    }
+    
+    .timeline::after {
+      
+      left: 0 !important;
+     
+    }
+    
+    .timeline-container {
+     
+      width: 100% !important;
+    }
+    
+    .timeline-right {
+      left: 0% !important;
+    }
+    
+    .timeline-container::after {
+    
+      left: -14px !important;
+    }
+    
+    .timeline-left::before {
+      
+        top: 15px !important;
+       
+        left: 25px !important;
+        border: medium solid #ffffff00 !important;
+        border-width: 15px 15px 15px 0 !important;
+        border-color: transparent white transparent transparent !important;
+    }
+    
+    .timeline-content {
+    
+      text-align: left !important;
+    }
+    
+    .timeline-left{
+      margin-bottom: 50px !important;
+    }
+    
+    .timeline-right{
+      margin-bottom: 50px !important;
+    }
+    
+    .timeline::after {
+     
+      bottom: 250px !important;
+    }
+    
+    .founder-content {
+      margin: 50px 0px !important;
+    }
+    
+    .fonder-detail-container {
+      max-width: 100% !important;
+      
+    }
+    
+    .founder-img-001
+    {
+        width: 100% !important;
+    }
+    .contact-text {
+      font-size: 16px !important;
+     
+    }
+    
+    .img-content h4 {
+      font-size: 17px !important;
+    }
+    
+    
+    .custom-list-icon .bi {
+     
+      font-size: 25px !important;
+     
+     }
+    
+     .custom-list-icon {
+      
+      /* margin: 13px; */
+      padding: 20px !important;
+      }
+    
+    
+    .custom-list{
+      padding: unset !important;
+    }
+    
+    
+    
+    .input-container{
+      width: 100% !important;
+    }
+    
+    .form-container {
+      border: unset !important;
+      margin: 100px 0px;
+      padding: 10px!important;
+    }
+    
+    .app-download-btn{
+      width: 50% !important;
+    }
+    
+    .footer-social-icon{
+      margin: 10px 0px;
+    }
+    
+    .product-left {
+      padding: 10px !important;
+    }
+    
+    .product-right {
+      padding: unset !important;
+    }
+    
+    .main-heading span {
+      font-size: 30px;
+    }
+    
+    section{
+      margin: unset !important;
+      padding: unset !important;
+    }
+    
+    
+    
+    ul{
+      padding: unset !important;
+    }
+    
+    p {
+      font-size: 16px !important;
+    }
+    
+    .list-icon .bi {
+      font-size: 20px; 
+    }
+    
+    
+    .inspiring-control-prev { 
+      width: 40px !important;
+       height: 30px !important;
+    }
+    .inspiring-control-next { 
+      width: 40px !important;
+       height: 30px !important;
+    }
+    
+    .inspiring-slider {
+      border: unset !important;
+      border-radius:  unset !important;
+    }
+    
+    .fsq-row{
+      flex-direction: column-reverse  ;
+    }
+    .fsq-container {
+      padding: unset !important;
+    }
+    
+    .contact-heading h3 {
+      margin-top: -40px !important;
+    }
+    
+    }
+    
+    

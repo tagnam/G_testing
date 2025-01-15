@@ -1,5 +1,6 @@
 .landing-banner {
     /* background-image: url(../../images/features.jpg); */
+    background-image:url(../../assets/images/features.jpg);
     height: 35vh;
     background-attachment: fixed;
     background-position: center;

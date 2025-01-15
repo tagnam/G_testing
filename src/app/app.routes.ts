@@ -9,32 +9,32 @@ import { testing_toolComponent } from './testing_tool/testing_tool.component';
 export const routes: Routes = [
 { 
     path:'', 
-    component:HomeComponent
+    component: HomeComponent
 },
 
 {
     path:'about',
-     component:AboutComponent
+     component: AboutComponent
     },
 
 {
     path:'blog'  ,
-    component:BlogComponent
+    component: BlogComponent
 },
 
 { 
     path:'contact',
-    component:ContactComponent
+    component: ContactComponent
 },
 
 { 
     path:'product', 
-    component:ProductComponent
+    component: ProductComponent
 },
 
 {
     path:'tool',
-    component:testing_toolComponent
+    component: testing_toolComponent
 }
 
 ];
