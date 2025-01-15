@@ -268,7 +268,7 @@ span:hover {
     font-size: 18px;
 }
 .diseases-card-001 {
-    border-bottom: 5px solid rgb(210, 48, 146) !important;
+    /* border-bottom: 5px solid rgb(210, 48, 146) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -282,7 +282,7 @@ span:hover {
 }
 
 .diseases-card-002 {
-    border-bottom: 5px solid rgb(77, 184, 78) !important;
+    /* border-bottom: 5px solid rgb(77, 184, 78) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -295,7 +295,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-003 {
-    border-bottom: 5px solid rgb(249, 56, 34) !important;
+    /* border-bottom: 5px solid rgb(249, 56, 34) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -308,7 +308,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-004 {
-    border-bottom: 5px solid rgb(255, 209, 0) !important;
+    /* border-bottom: 5px solid rgb(255, 209, 0) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -321,7 +321,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-005 {
-    border-bottom: 5px solid rgb(0, 154, 206) !important;
+    /* border-bottom: 5px solid rgb(0, 154, 206) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -334,7 +334,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-006 {
-    border-bottom: 5px solid rgb(136, 139, 141) !important;
+    /* border-bottom: 5px solid rgb(136, 139, 141) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -347,7 +347,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-007 {
-    border-bottom: 5px solid rgb(244, 117, 34) !important;
+    /* border-bottom: 5px solid rgb(244, 117, 34) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -360,7 +360,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-008 {
-    border-bottom: 5px solid rgb(200, 130, 64) !important;
+    /* border-bottom: 5px solid rgb(200, 130, 64) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -373,7 +373,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-009 {
-    border-bottom: 5px solid rgb(255, 88, 93) !important;
+    /* border-bottom: 5px solid rgb(255, 88, 93) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -386,7 +386,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-010 {
-    border-bottom: 5px solid rgb(255, 88, 93) !important;
+    /* border-bottom: 5px solid rgb(255, 88, 93) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -399,7 +399,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-011 {
-    border-bottom: 5px solid rgb(255, 209, 0) !important;
+    /* border-bottom: 5px solid rgb(255, 209, 0) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -412,7 +412,7 @@ span:hover {
     animation: border-animation 0.5s;
 }
 .diseases-card-012 {
-    border-bottom: 5px solid rgb(200, 130, 65) !important;
+    /* border-bottom: 5px solid rgb(200, 130, 65) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;
@@ -426,7 +426,7 @@ span:hover {
 }
 
 .diseases-card-013 {
-    border-bottom: 5px solid rgb(80, 187, 120) !important;
+    /* border-bottom: 5px solid rgb(80, 187, 120) !important; */
     border: unset;
     box-shadow: 0px 0px 5px 0px;
     padding: 5px;

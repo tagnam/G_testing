@@ -58,11 +58,11 @@
         </div>
 
         <div class="row row-cols-2 row-cols-md-5 g-5 justify-content-center">
-            <div class="col" *ngFor="let diseases of diseases">
-                <div class="card h-100 align-items-center diseases-card-013">
-                    <img [src]="diseases.image" class="card-img-top" style="width: 30%;" alt="..." />
+            <div class="col" *ngFor="let disease of diseases" >
+                <div class="card h-100 align-items-center diseases-card-013"  [ngClass]="disease.borderClass">
+                    <img [src]="disease.image" class="card-img-top" style="width: 30%;" alt="..." />
                     <div class="card-body">
-                        <h5 class="card-title diseases-title">{{diseases.text}}</h5>
+                        <h5 class="card-title diseases-title">{{disease.text}}</h5>
                     </div>
                 </div>
             </div>
