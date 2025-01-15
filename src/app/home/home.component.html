@@ -50,3 +50,217 @@
         </div>
     </div>
 </div>
+
+<section>
+    <div class="container">
+        <div class="main-heading">
+            <span> Search by Diseases </span>
+        </div>
+
+        <div class="row row-cols-2 row-cols-md-5 g-5 justify-content-center">
+            <div class="col" *ngFor="let diseases of diseases">
+                <div class="card h-100 align-items-center diseases-card-013">
+                    <img [src]="diseases.image" class="card-img-top" style="width: 30%;" alt="..." />
+                    <div class="card-body">
+                        <h5 class="card-title diseases-title">{{diseases.text}}</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 product-left">
+                <div class="product-left-inner">
+                    <h3>See Our Products</h3>
+                    <p><b> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo, ab reiciendis eius aspernatur debitis iure minima delectus facilis fugit</b></p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum nihil cum quas, aliquid, distinctio similique obcaecati corrupti consectetur illum culpa, facere iusto labore! Cumque sapiente itaque incidunt
+                        repellat alias eum.
+                    </p>
+                  
+                        <a class="custom-btn" role="button">See All Projects</a>
+                   
+                </div>
+            </div>
+            <div class="col-lg-6 product-right">
+                <div class="container">
+                    <div class="ProductSlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/01.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="ProductSlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/02.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="ProductSlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/03.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="ProductSlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/04.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="ProductSlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/05.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="ProductSlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/06.jpg" style="width: 100%;" />
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-1">
+                <div class="column">
+                    <img class="demo-product cursor" src="images/01.jpg" style="width: 100%;" onclick="currentSlide(1)" alt="Product 001" />
+                </div>
+                <div class="column">
+                    <img class="demo-product cursor" src="images/02.jpg" style="width: 100%;" onclick="currentSlide(2)" alt="Product 002" />
+                </div>
+                <div class="column">
+                    <img class="demo-product cursor" src="images/03.jpg" style="width: 100%;" onclick="currentSlide(3)" alt="Product 003" />
+                </div>
+                <div class="column">
+                    <img class="demo-product cursor" src="images/04.jpg" style="width: 100%;" onclick="currentSlide(4)" alt="Product 004" />
+                </div>
+                <div class="column">
+                    <img class="demo-product cursor" src="images/05.jpg" style="width: 100%;" onclick="currentSlide(5)" alt="Product 005" />
+                </div>
+                <div class="column">
+                    <img class="demo-product cursor" src="images/06.jpg" style="width: 100%;" onclick="currentSlide(6)" alt="Product 006" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-overlay"></div>
+</section>
+
+
+<section style="padding: 100px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="main-heading">
+                    <span> Why Choose Us </span>
+                </div>
+                <div class="main-btn">
+                    <a class="custom-btn" role="button">About Us</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <ul class="row row-cols-1 row-cols-md-2 g-0 justify-content-center">
+                    <li class="choose-list" *ngFor="let whyUs of whyUs">
+                        <div class="list-icon" ><i [class]="whyUs.icon"></i> </div>
+                        <div class="list-content">
+                            <h4>{{whyUs.heading}}</h4>
+                            <p>{{whyUs.text}}</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="inspiring-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4" style="z-index: 999;">
+                <div class="main-heading" style="color: #fff;">
+                    <span> Inspiring story </span>
+                </div>
+                <p style="color: #fff;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam corrupti doloribus sunt quos eius dolorum. Maxime, itaque! Perspiciatis aspernatur harum tenetur? Ea reiciendis exercitationem qui explicabo
+                    adipisci nobis aperiam consectetur!
+                </p>
+            </div>
+            <div class="col-lg-8 inspiring-slider" style="z-index: 999;">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="inspiring-control-btn">
+                        <div class="row justify-content-end g-4" style="margin: 10px 0px;">
+                            <button class="carousel-control-prev inspiring-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon inspiring-control-prev-icon" aria-hidden="true"> <i class="bi bi-arrow-left"></i> </span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next inspiring-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                <span class="carousel-control-next-icon inspiring-control-next-icon" aria-hidden="true"><i class="bi bi-arrow-right"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item position-relative active" data-bs-interval="10000">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="assets/images/01.jpg" class="d-block w-100 inspiring-img" alt="..." />
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="carousel-caption custom-carousel-caption d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem accusantium itaque natus veritatis, facere totam optio qui illo, dicta voluptatibus! Unde maxime quam vero consequuntur
+                                            quae, expedita neque totam!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative" data-bs-interval="2000">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="assets/images/02.jpg" class="d-block w-100 inspiring-img" alt="..." />
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="carousel-caption custom-carousel-caption d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem accusantium itaque natus veritatis, facere totam optio qui illo, dicta voluptatibus! Unde maxime quam vero consequuntur
+                                            quae, expedita neque totam!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="assets/images/03.jpg" class="d-block w-100 inspiring-img" alt="..." />
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="carousel-caption custom-carousel-caption d-md-block">
+                                        <h5>First slide label</h5>
+                                        <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel autem accusantium itaque natus veritatis, facere totam optio qui illo, dicta voluptatibus! Unde maxime quam vero consequuntur
+                                            quae, expedita neque totam!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-overlay"></div>
+</section>
